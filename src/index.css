@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap'); */
+
+body {
+    margin: 0;
+    padding:0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+}
+
+.space-between{
+    letter-spacing: 4px;
+    word-spacing: -3px;
+}
+
+.bg-1{
+    background-image: url('./assets/product1.jpg');
+}
+.bg-2{
+    background-image: url('./assets/product2.jpg');
+}.bg-3{
+    background-image: url('./assets/product3.jpg');
+}.bg-4{
+    background-image: url('./assets/product4.jpg');
+}.bg-5{
+    background-image: url('./assets/product5.jpg');
+}.bg-6{
+    background-image: url('./assets/product6.jpg');
+}.bg-8{
+    background-image: url('./assets/product3.jpg');
+}
